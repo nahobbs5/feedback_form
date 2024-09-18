@@ -22,7 +22,7 @@ const FeedbackForm = () => {
          });
      };
     const handleSubmit = (event) => {
-        event.preventDefaut();
+        event.preventDefault();
         //Capture user details
         //this  "${}" syntax is used to embed the value of a string (ES6 feature)
         const confirmationMessage = `
